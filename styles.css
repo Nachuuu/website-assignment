@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:focus {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}
+
+.landing {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.cta-button:focus {
+    outline: 2px solid #0056b3;
+    outline-offset: 2px;
+}
+
+section {
+    padding: 2rem;
+    background-color: #fff;
+    margin: 1rem 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form select, form button {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+form input:focus, form select:focus, form button:focus {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+#transaction-list {
+    list-style: none;
+    padding: 0;
+}
+
+#transaction-list li {
+    background-color: #f4f4f4;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+}
+
+#transaction-list li button {
+    margin-left: 1rem;
+}
+
+#transaction-list li button:focus {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+}
