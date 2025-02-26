@@ -3,6 +3,9 @@ Website Assignment INFO-5146-(01-01PT)-25W
 
 ## Budget Planner
 
+### Live Demo
+You can view the live demo of the project [here](https://nachuuu.github.io/website-assignment/).
+
 ### Features
 - **Track Income and Expenses**: Easily add transactions to track your income and expenses.
 - **View Transaction List**: See a list of all your transactions with descriptions, amounts, and categories.
@@ -41,3 +44,5 @@ Website Assignment INFO-5146-(01-01PT)-25W
 1. Clone the repository:
    ```bash
    git clone https://github.com/Nachuuu/website-assignment.git
+   ```
+
