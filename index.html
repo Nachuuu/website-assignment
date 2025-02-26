@@ -10,9 +10,9 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#home" tabindex="0">Home</a></li>
-                <li><a href="#features" tabindex="0">Features</a></li>
-                <li><a href="#budget-planner" tabindex="0">Budget Planner</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#budget-planner">Budget Planner</a></li>
             </ul>
         </nav>
     </header>
@@ -20,7 +20,7 @@
     <section id="home" class="landing">
         <h1>Welcome to Budget Planner</h1>
         <p>Take control of your finances with our easy-to-use budgeting tool.</p>
-        <a href="#budget-planner" class="cta-button" tabindex="0">Get Started</a>
+        <a href="#budget-planner" class="cta-button">Get Started</a>
     </section>
     
     <section id="features">
@@ -37,19 +37,16 @@
         <section id="budget-form">
             <h2>Add Transaction</h2>
             <form id="transaction-form">
-                <label for="description">Description</label>
-                <input type="text" id="description" placeholder="Description" required tabindex="0">
-                <label for="amount">Amount</label>
-                <input type="number" id="amount" placeholder="Amount" required tabindex="0">
-                <label for="category">Category</label>
-                <select id="category" tabindex="0">
+                <input type="text" id="description" placeholder="Description" required>
+                <input type="number" id="amount" placeholder="Amount" required>
+                <select id="category">
                     <option value="income">Income</option>
                     <option value="rent">Rent</option>
                     <option value="food">Food</option>
                     <option value="transportation">Transportation</option>
                     <option value="entertainment">Entertainment</option>
                 </select>
-                <button type="submit" tabindex="0">Add</button>
+                <button type="submit">Add</button>
             </form>
         </section>
         <section id="transactions">
@@ -66,11 +63,9 @@
             <h2>Edit Transaction</h2>
             <form id="edit-form">
                 <input type="hidden" id="edit-index">
-                <label for="edit-description">Description</label>
-                <input type="text" id="edit-description" placeholder="Description" required tabindex="0">
-                <label for="edit-amount">Amount</label>
-                <input type="number" id="edit-amount" placeholder="Amount" required tabindex="0">
-                <button type="submit" tabindex="0">Update</button>
+                <input type="text" id="edit-description" placeholder="Description" required>
+                <input type="number" id="edit-amount" placeholder="Amount" required>
+                <button type="submit">Update</button>
             </form>
         </section>
     </main>
